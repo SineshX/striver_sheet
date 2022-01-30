@@ -6,6 +6,8 @@ vscode/
 tempCodeRunnerFile.cpp
 *.txt
 
+**.exe
+
 **input.txt
 **output.txt
 **test.cpp
