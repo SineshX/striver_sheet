@@ -1,8 +1,8 @@
 vscode/
 #  https://www.pluralsight.com/guides/how-to-use-gitignore-file
 # reference :)
-**/vscode
 
+.vscode
 tempCodeRunnerFile.cpp
 *.txt
 
