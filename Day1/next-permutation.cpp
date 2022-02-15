@@ -10,8 +10,9 @@ void nextPermutation(vector<int> &nums)
     int n = nums.size();
     if(n <2) return;
 
-    int i = n-1; //last index
+    int i = n-1; //last ele index
     //this >= nearly killed my code :_: :)
+    // find the element justsmaller than current : start from end; 
     while( nums[i-1] >= nums[i])
     {
         i--;
